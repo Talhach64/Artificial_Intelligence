@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression as lr
 from sklearn.model_selection import train_test_split as tts
 from sklearn.preprocessing import PolynomialFeatures as pf
 
-dataset = pd.read_csv("E:/308/file1.csv")
+dataset = pd.read_csv("E:/340/file1.csv")
 X = dataset.iloc[:, [0]].values
 y = dataset.iloc[:, [1]].values
 
